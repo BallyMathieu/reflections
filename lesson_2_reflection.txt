@@ -1,0 +1,28 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When we initialiaize a repository, this creates a new subdirectory named .git that 
+contains all the necessary files to the repository - a Git repository skeleton.
+We need to do this because without this we couldn't commit our repository or the 
+files in it.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area offers the possibility of think about what will look like our commit 
+into our working directory before make it really, with this thing we can cancel our commit,
+if we think that to early or something like that. It also allows to commit multiple files
+together.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
