@@ -1,9 +1,10 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-When we initialiaize a repository, this creates a new subdirectory named .git that 
+When we initialize a repository, this creates a new subdirectory named .git that 
 contains all the necessary files to the repository - a Git repository skeleton.
 We need to do this because without this we couldn't commit our repository or the 
 files in it.
+
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
@@ -13,16 +14,45 @@ into our working directory before make it really, with this thing we can cancel 
 if we think that to early or something like that. It also allows to commit multiple files
 together.
 
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+We can use the staging area to make sure that we have one commit per logical change, because
+we can compare easily the version of the file that we added to the staging area with an 
+other commit, we can see the difference, and then make sure that this commit by 
+comparison to the working director or the last commit contain a logical change.
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches can help us, because that allows us to organise our code by many way, for example,
+if we have a code, and it needs to be separate for to kind of users, one in English for 
+the English users and one in French for my friends, with branches, I can do it without
+an impact by changing one on the other.
+
+
 How do the diagrams help you visualize the branch structure?
+
+With the diagram, we can easily visualize the branch structure of our project, because allows us
+to visualize the organisation of the project. With it, we can see each commits done in concordance 
+with time, and its associated branch.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+When we merging two branches together, we choose to combine them into just one branch.
+That can be useful, if for example, we make a feature for our code into a separate branch
+from the master branch, and once we finished our feature, we want to add it to the master
+branch, then we make a merge. It needs to be represented in the diagram because, that's 
+represent the workflow of our project.
+
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+For me, a merging do not have to be automatic, it have to be manually, because only us can 
+choose if the branch that we use separately than the master one, is finished and needs to be
+merge with the master one. 
