@@ -6,6 +6,7 @@ since the old version of the file, this old version doesn't have bug, so we can 
 we the new part by comparison with the old, or by improving the error that we have made, or simply 
 solve a mistake of taping.
 
+
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
@@ -15,6 +16,7 @@ for some reasons, we will make new versions of this program. Let's think about w
 some bugs with our new version, we can easily go to an old version of the program for the customers,
 and fix the bug on an other side without an impact on the customers. In an other hand, that can
 help us to go back to something that we like on an old version.
+
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
@@ -28,6 +30,7 @@ in the history more efficient and more clear for us, because each commit got a p
 In an other hand, if we forget to commit our work, and we make a lot of work on a program
 without commit, that can be painful when we want to go on the commits on our program.
 
+
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
@@ -37,11 +40,13 @@ commits of some programmers. For example, when a web designer work on a task, he
 work on one file, but on many files, like the html file, the css file and so on, the commit 
 for the task will be logic and group all files concerned by this task.
 
+
 How can you use the commands git log and git diff to view the history of files?
 
 First of all, we need to access to the file by using cd command, then when we are at it,
 we use git log command to visualize each commit that it had, and finally by using git diff,
 we can see every parts of the file that have been changed every time we commit.
+
 
 How might using version control make you more confident to make changes that
 could break something?
@@ -52,6 +57,7 @@ work properly because we commit only when we have made something good, our succe
 of a features, or something like that. So we can experience a lot of risky code, without 
 thinking about how to go back to to fix the code if we fail, that will not breaking the 
 project. Consequently we can code without limit, and that can make our code better.
+
 
 Now that you have your workspace set up, what do you want to try using Git for?
 

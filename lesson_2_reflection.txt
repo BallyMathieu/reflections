@@ -28,7 +28,7 @@ What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 Branches can help us, because that allows us to organise our code by many way, for example,
-if we have a code, and it needs to be separate for to kind of users, one in English for 
+if we have a code, and it needs to be separate for two kinds of users, one in English for 
 the English users and one in French for my friends, with branches, I can do it without
 an impact by changing one on the other.
 
